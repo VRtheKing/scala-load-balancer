@@ -1,5 +1,6 @@
 name := """scala-load-balancer"""
 organization := "com.example"
+PlayKeys.playDefaultPort := 9004
 
 version := "1.0-SNAPSHOT"
 

@@ -2,5 +2,5 @@
 
 GET /proxy/*path controllers.LoadBalancerController.proxy(path)
 POST /proxy/*path controllers.LoadBalancerController.proxy(path)
-PUT /proxy/*path controllers.LoadBalancerController.proxy(path)
+PATCH /proxy/*path controllers.LoadBalancerController.proxy(path)
 DELETE /proxy/*path controllers.LoadBalancerController.proxy(path)
